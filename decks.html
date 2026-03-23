@@ -3,11 +3,19 @@
 <title>Pokemon TCG Expanded Website</title>
 <head>
 <style>
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 12px;
+    padding: 10px;
+  }
+
   .image-container img {
-    width: 160px;
-    height: 160px;
-    object-fit: contain;
-    background-color: transparent;
+    width: 100%;
+    height: auto;
+    max-width: 130px;
+    margin: auto;
+    display: block;
   }
 </style>
 <link href="https://fonts.googleapis.com" rel="stylesheet">
